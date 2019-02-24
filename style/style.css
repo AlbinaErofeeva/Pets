@@ -1,0 +1,91 @@
+body {
+    background-color: #EDE9E0;
+    font-family: 'Roboto';
+    font-weight: normal;
+ } 
+.container_header{
+  margin: 10px 20px;
+  display: inline-block;
+  border: 1px #eee solid;
+  position: relative;
+  text-align: center;
+  width: 1175px;
+  box-sizing:border-box;
+} 
+.dog_header{
+  position: absolute;
+  margin-left: 10px;
+}
+.logo{
+  width: 80px;
+  float: left;
+ } 
+.menu_link {
+  display: inline-block;
+  text-decoration: none;
+  padding:10px;
+  
+}
+.phone{
+  text-decoration: none; 
+  text-align: right;
+}
+
+ /*
+.menu_header{
+  margin-top: 40px;
+}
+.menu_link {
+  margin: 5px;
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.menu_link a {
+  color: #202020;
+   text-decoration: none;
+}
+.phone{
+  text-decoration: none;
+  font-size: 16px;
+  color: #510fad;
+}
+
+ /*
+ img{
+ 	float: left;
+  color: red;
+ }
+
+.menu { 
+  width: 400px;
+  float: left;
+  }
+.menu_link {
+  color: black;
+  font-size: 20px;
+  padding: 10px;
+  float: right;
+ }
+.menu_link a {
+  color: blak;
+}
+.phone{
+  
+}
+.sign{
+  width: 400px;
+  float: left;
+  line-height: 60px;
+  border-left: 3px solid #fff;
+}
+.heading{
+  float: left;
+  width: 350px;
+  line-height: 60px;
+}
+
+text-transform: uppercase;
+*\
