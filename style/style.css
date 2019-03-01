@@ -1,91 +1,621 @@
 body {
     background-color: #EDE9E0;
-    font-family: 'Roboto';
-    font-weight: normal;
- } 
-.container_header{
-  margin: 10px 20px;
-  display: inline-block;
-  border: 1px #eee solid;
-  position: relative;
-  text-align: center;
-  width: 1175px;
-  box-sizing:border-box;
-} 
-.dog_header{
-  position: absolute;
-  margin-left: 10px;
-}
-.logo{
-  width: 80px;
-  float: left;
- } 
-.menu_link {
-  display: inline-block;
-  text-decoration: none;
-  padding:10px;
-  
-}
-.phone{
-  text-decoration: none; 
-  text-align: right;
 }
 
- /*
-.menu_header{
-  margin-top: 40px;
+.wrapper{
+  width: 1024px;
+  margin: 0 auto;
+  margin-top: -20px;
+  background-image: url(../img_pets/dog_logo.png);
+  background-repeat: no-repeat; 
+  background-position: 55px 0;
 }
+
+.main{
+  width: 940px;
+  margin:0 auto;
+}
+
+.container_header{
+  width: 100%;
+  margin: 0 36px 0 40px;
+  padding-top: 40px;
+}
+
+.logo{
+  float:left;
+}
+
+/*Шапка*/
+.menu_header{
+  float:right;
+  padding-right: 40px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0;
+}
+
 .menu_link {
-  margin: 5px;
-  text-decoration: none;
+  margin: 7px;
   list-style: none;
   display: inline-block;
   vertical-align: top;
 }
 
-.menu_link a {
-  color: #202020;
-   text-decoration: none;
-}
-.phone{
-  text-decoration: none;
-  font-size: 16px;
+li :hover{
   color: #510fad;
 }
 
- /*
- img{
- 	float: left;
-  color: red;
- }
-
-.menu { 
-  width: 400px;
-  float: left;
-  }
-.menu_link {
+a{
+  text-decoration: none;
+  text-align: center;
   color: black;
-  font-size: 20px;
-  padding: 10px;
-  float: right;
- }
-.menu_link a {
-  color: blak;
-}
-.phone{
-  
-}
-.sign{
-  width: 400px;
-  float: left;
-  line-height: 60px;
-  border-left: 3px solid #fff;
-}
-.heading{
-  float: left;
-  width: 350px;
-  line-height: 60px;
+  line-height: 30px;
 }
 
-text-transform: uppercase;
-*\
+.phone{
+  color: #510fad;
+  text-decoration: none;
+}
+
+/*Промо раздел*/
+.promo_container{
+  width: 940px;
+  margin:0 auto;
+}
+
+h1{
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 48px;
+  padding-left: 365px;
+  padding-top: 163px;
+  font-weight: 500;
+  }
+
+.quote{
+  display: inline-flex;
+  padding-left: 365px;
+  padding-top: 55px;
+}
+
+.quote img{
+  height: 20px;
+}
+
+.quote p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 50;
+  font-weight: 500;
+  padding-left: 9px;
+  margin: 0 auto;
+  color: #727173;
+}
+
+/*О Питомнике*/
+.about{
+  background-color: #510fad;
+  margin:267px auto;
+}
+
+.about_container{
+  width: 940px;
+  padding-bottom: 100px;
+}
+
+.about_title{
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 50;
+  color:#fff;
+  padding-top: 122px;
+  font-weight: 500;
+  padding-left: 366px;
+}
+
+.section_about p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0;
+  color:#b8adc8;
+  font-weight: 400;
+  padding-left: 366px;
+}
+
+.about_main{
+  display: inline-flex;
+  flex-direction: row;
+  padding-top: 68px; 
+  padding-left: 40px;
+  width: 940px;
+}
+
+.about_main  img{
+  width: 460px;
+  height: 274px;
+  box-shadow: -20px -10px 50px 10px rgba(0,0,0,0.51);
+  -webkit-box-shadow: -20px -10px 50px 10px rgba(0,0,0,0.51);
+  -moz-box-shadow: -20px -10px 50px 10px rgba(0,0,0,0.51);
+}
+
+.about_content li{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  line-height: 30px;
+  letter-spacing: 0;
+  color:#fff;
+}
+
+.about_content a{
+  padding: 64px 0 0 20px;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1em;
+  line-height: 30px;
+  letter-spacing: 50;
+  color: #ffec00;
+  display: inline-block;
+  text-align: left;
+}
+
+.btn{
+  text-align: left;
+}
+
+.icon {
+  background: url(http://www.picshare.ru/uploads/190227/zj4r6pIZYL.png) no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.about_content a:hover{
+  color: #b8adc8;
+}
+
+.arrow{
+  width: 20px;
+  height: 14px;
+  background-position: -5px -81px;
+}
+
+.arrow:hover {
+  width: 20px;
+  height: 14px;
+  background-position: -5px -129px;
+}
+
+/*Наши Породы*/
+.breeds_container{
+  width: 940px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+  margin: 100px auto;
+}
+
+.breeds_title{
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 36px;
+  line-height: 20px;
+  color:#202020;
+  letter-spacing: 50;
+  padding-left: 366px;
+  font-weight: 500;
+}
+
+
+.breed_item{
+  width: 460px;
+}
+
+.breed_discription{
+  font-family:'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  color:#737274;
+  letter-spacing: 0;
+  font-weight: 400;
+  margin:0 auto;
+}
+
+.breed1{
+  float: left;
+}
+
+.title_breed{
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 24px;
+  line-height: 20px;
+  color:#202020;
+  letter-spacing: 50;
+  font-weight: 500;
+}
+
+.breed{
+  width: 300;
+  padding-left: 160px
+}
+
+.breed_continie{
+  padding-left: 20px;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  color:#510fad;
+  letter-spacing: 50;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.breed_continie:hover{
+  color: #b8adc8;
+}
+
+.arrow_blue:hover{
+  width: 20px;
+  height: 14px;
+  background-position: -5px -129px;
+}
+
+.breed_item2{
+  width: 460px;
+}
+.breed_item3{
+  width: 460px;
+}
+.breed_item4{
+  width: 460px;
+}
+
+.arrow_blue{
+  width: 20px;
+  height: 14px;
+  background-position: -5px -105px;
+}
+
+/*Отзывы хозяев*/
+.feedback_container{
+  width: 940px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding-left: 40px;
+}
+
+.quotes{
+  width: 81px;
+  height: 66px;
+  background-position: -5px -5px;
+}
+
+.title_feedback{
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 36px;
+  line-height: 30px;
+  color:#202020;
+  letter-spacing: 50;
+  font-weight: 500;
+  padding-left: 366px;
+}
+
+.feedback_item{
+  padding-top: 10px;
+  width: 460px;
+}
+.feedback {
+  padding-top: 60px;
+  width: 460px;
+}
+
+.feedback{
+  padding-left: 20px;
+}
+
+.title_feedback_item{
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  color:#202020;
+  letter-spacing: 50;
+  font-weight: 500;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+.data_feedback{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 30px;
+  color:#737274;
+  letter-spacing: 50;
+  font-weight: 400;
+}
+
+blockquote{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  color:#202020;
+  font-weight: 400;
+  margin: 0;
+}
+
+.photo_comment{
+  width: 462px;
+  height: 273px;
+  box-shadow: -6px -6px 40px 0px rgba(0,0,0,0.4);
+  -webkit-box-shadow: -6px -6px 40px 0px rgba(0,0,0,0.4);
+  -moz-box-shadow: -6px -6px 40px 0px rgba(0,0,0,0.4);
+}
+
+.feedback p{
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 30px;
+  color:#737274;
+  letter-spacing: 50;
+  font-weight: 400;
+}
+
+.sochial_vk{
+  color: #5717af;
+}
+
+/*Все о животных*/
+.about_animals{
+  background-image: url(../img_pets/fon.png);
+  margin: 200px auto 0;
+}
+
+.animals_container{
+  width: 940px;
+  display: inline-flex;
+}
+
+.about_animals_content{
+  width: 430px;
+  padding-left: 40px;
+  padding-top: 120px;
+}
+
+.title_about_animals{
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 36px;
+  line-height: 20px;
+  color:#fff;
+  letter-spacing: 50;
+  font-weight: 500;
+}
+
+.about_animals_text{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  color:#b8adc8;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+.about_animals_photos_item1 p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  color:#202020;
+  letter-spacing: 50;
+  font-weight: 400;
+}
+
+
+.about_animals_photos_item2 p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  color:#202020;
+  letter-spacing: 50;
+  font-weight: 400;
+}
+
+.animals_text{
+  padding-left: 10px;
+  margin: 0;
+}
+
+.read_more{
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  color:#5c11c5;
+  letter-spacing: 50;
+  font-weight: 500;
+}
+.arrow_read{
+  width: 20px;
+  height: 14px;
+  background-position: -5px -105px;
+}
+
+.icons_sochial {
+  padding-top: 39px;
+  padding-bottom: 140px;
+  display: inline-flex;
+  width: 100px;
+  justify-content: space-between;
+}
+
+.vk {
+  width: 26px;
+  height: 26px;
+  background-position: -5px -441px;
+
+}
+.vk:hover{
+  width: 26px;
+  height: 26px;
+  background-position: -5px -549px;
+}
+
+.fb {
+  width: 26px;
+  height: 26px;
+  background-position: -5px -153px;
+}
+.fb:hover{
+  width: 26px;
+  height: 26px;
+  background-position: -5px -261px;
+}
+
+.insta{
+  width: 26px;
+  height: 26px;
+  background-position: -5px -297px;
+
+}
+.insta:hover{
+  width: 26px;
+  height: 26px;
+  background-position: -5px -405px;
+}
+
+.about_animals_photos_item1,
+.about_animals_photos_item2{
+  width: 220px;
+  height: 290px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 110px 10px;
+  box-shadow: -6px 0px 40px 0px rgba(0,0,0,0.4);
+  -webkit-box-shadow: -6px 0px 40px 0px rgba(0,0,0,0.4);
+  -moz-box-shadow: -6px 0px 40px 0px rgba(0,0,0,0.4);
+}
+
+.about_animals_photos_item1:hover{
+  box-shadow: -6px 0px 40px 0px rgba(0,0,0,0.8);
+  -webkit-box-shadow: -6px 0px 40px 0px rgba(0,0,0,0.8);
+  -moz-box-shadow: -6px 0px 40px 0px rgba(0,0,0,0.8);
+}
+.about_animals_photos_item2:hover{
+  box-shadow: -6px 0px 40px 0px rgba(0,0,0,0.8);
+  -webkit-box-shadow: -6px 0px 40px 0px rgba(0,0,0,0.8);
+  -moz-box-shadow: -6px 0px 40px 0px rgba(0,0,0,0.8);
+}
+
+.round{
+  border-radius: 10px 10px 0 0;
+}
+
+/*Контаткы*/
+.contacts_container{
+  width: 940px;
+  padding-top: 130px;
+  margin: 0 auto;
+}
+
+.contact_item{
+  min-width: 460px;
+}
+
+.contacts_items{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title_contacts{
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 36px;
+  line-height: 30px;
+  color:#202020;
+  letter-spacing: 50;
+  font-weight: 500;
+}
+.contact_item h3{
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  color:#737274;
+  letter-spacing: 50;
+  font-weight: 500;
+  text-transform:uppercase;
+}
+
+.contact{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  color:#202020;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+.footer_container{
+  width: 940px;
+  margin: 120px auto;
+  border-top: 2px solid #b8adc8;
+  padding: 35px 0;
+  display: flex;
+}
+
+.menu_footer ul{
+  margin: 0;
+  padding: 0;
+}
+
+.menu_footer a{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  color: #737274;
+  letter-spacing: 0;
+  font-weight: 500;
+}
+
+.menu_footer a:hover{
+  color: #510fad;
+}
+
+.footer_menu_icons{
+  display: inline-flex;
+  width: 100px;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.vk_footer {
+  width: 26px;
+  height: 26px;
+  background-position: -5px -477px;
+}
+.vk_footer:hover{
+  width: 26px;
+  height: 26px;
+  background-position: -5px -513px;;
+}
+
+.fb_footer {
+  width: 26px;
+  height: 26px;
+  background-position: -5px -189px;
+}
+.fb_footer:hover{
+  width: 26px;
+  height: 26px;
+  background-position: -5px -225px;
+}
+
+.insta_footer{
+  width: 26px;
+  height: 26px;
+  background-position: -5px -333px;
+
+}
+.insta_footer:hover{
+  width: 26px;
+  height: 26px;
+  background-position: -5px -369px;
+}
