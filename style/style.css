@@ -6,7 +6,7 @@ body {
   width: 1024px;
   margin: 0 auto;
   margin-top: -20px;
-  background-image: url(../img_pets/dog_logo.png);
+  background-image: url(../img/dog_logo.png);
   background-repeat: no-repeat; 
   background-position: 55px 0;
 }
@@ -97,34 +97,37 @@ h1{
 
 /*О Питомнике*/
 
-.about:before { 
-  content: ''; 
-  background-image: url(../img_pets/backround_shape_up.png); 
-  position: absolute;
-  
-  width: 100%;
-  background-repeat: no-repeat; 
-  background-size: 100% 100%; 
-
-
-} 
-
 .about{
   background-color: #510fad;
   margin:267px auto;
+  position: relative;
 }
-/*
-.about:after { 
-content: ''; 
+
+.about:before {
+content: '';
 position: absolute; 
 left: 0; 
-top: 100%; 
+right: 0;
+bottom: 100%; 
+margin: 0 auto;
 height: 90px; 
-width: 100%; 
-background-image: url(../img_pets/backround_shape_up.png); 
+background-image: url(../img/backround_shape_up.png); 
 background-repeat: no-repeat; 
-background-size: 100% 100%; 
-}*/
+background-size: 100% 100%;
+}
+
+.about:after {
+content: '';
+position: absolute; 
+left: 0; 
+right: 0; 
+margin: 0 auto;
+height: 90px; 
+top:100%;
+background-image: url(../img/backround_shape_down.png); 
+background-repeat: no-repeat; 
+background-size: 100% 100%;
+}
 
 .about_container{
   width: 940px;
@@ -247,9 +250,14 @@ background-size: 100% 100%;
   font-weight: 400;
   margin:0 auto;
 }
+/*
+.dog{
+  border-radius: 50%;
+}*/
 
 .breed1{
   float: left;
+  border-radius: 50%;
 }
 
 .title_breed{
@@ -374,6 +382,7 @@ blockquote{
   box-shadow: -6px -6px 40px 0px rgba(0,0,0,0.4);
   -webkit-box-shadow: -6px -6px 40px 0px rgba(0,0,0,0.4);
   -moz-box-shadow: -6px -6px 40px 0px rgba(0,0,0,0.4);
+  border-radius: 10px;
 }
 
 .feedback p{
@@ -392,7 +401,7 @@ blockquote{
 
 /*Все о животных*/
 .about_animals{
-  background-image: url(../img_pets/fon.png);
+  background-image: url(../img/fon.png);
   margin: 200px auto 0;
 }
 
