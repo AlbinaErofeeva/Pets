@@ -72,6 +72,7 @@ h1{
   padding-left: 365px;
   padding-top: 163px;
   font-weight: 500;
+  margin: 0;
   }
 
 .quote{
@@ -88,18 +89,19 @@ h1{
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   line-height: 20px;
-  letter-spacing: 50;
+  letter-spacing: 0.05em;
   font-weight: 500;
   padding-left: 9px;
   margin: 0 auto;
   color: #727173;
+  text-transform: uppercase;
 }
 
 /*О Питомнике*/
 
 .about{
   background-color: #510fad;
-  margin:267px auto;
+  margin:236px auto;
   position: relative;
 }
 
@@ -139,11 +141,12 @@ background-size: 100% 100%;
   font-family: 'Fira Sans', sans-serif;
   font-size: 36px;
   line-height: 40px;
-  letter-spacing: 50;
+  letter-spacing: 0.05em;
   color:#fff;
-  padding-top: 122px;
+  padding-top: 100px;
   font-weight: 500;
   padding-left: 366px;
+  margin: 0;
 }
 
 .section_about p{
@@ -154,6 +157,7 @@ background-size: 100% 100%;
   color:#b8adc8;
   font-weight: 400;
   padding-left: 366px;
+  margin-top: 36px;
 }
 
 .about_main{
@@ -169,6 +173,7 @@ background-size: 100% 100%;
   box-shadow: -20px -10px 50px 10px rgba(0,0,0,0.51);
   -webkit-box-shadow: -20px -10px 50px 10px rgba(0,0,0,0.51);
   -moz-box-shadow: -20px -10px 50px 10px rgba(0,0,0,0.51);
+  border-radius: 15px;
 }
 
 .about_content li{
@@ -184,7 +189,7 @@ background-size: 100% 100%;
   font-family: 'Fira Sans', sans-serif;
   font-size: 1em;
   line-height: 30px;
-  letter-spacing: 50;
+  letter-spacing: 0.05em;
   color: #ffec00;
   display: inline-block;
   text-align: left;
@@ -198,6 +203,8 @@ background-size: 100% 100%;
   background: url(http://www.picshare.ru/uploads/190227/zj4r6pIZYL.png) no-repeat;
   display: inline-block;
   vertical-align: middle;
+  text-align: right;
+  margin-left: 16px;
 }
 
 .about_content a:hover{
@@ -231,9 +238,10 @@ background-size: 100% 100%;
   font-size: 36px;
   line-height: 20px;
   color:#202020;
-  letter-spacing: 50;
+  letter-spacing: 0.05em;
   padding-left: 366px;
   font-weight: 500;
+  margin: 0 auto;
 }
 
 
@@ -265,7 +273,7 @@ background-size: 100% 100%;
   font-size: 24px;
   line-height: 20px;
   color:#202020;
-  letter-spacing: 50;
+  letter-spacing: 0.05em;
   font-weight: 500;
 }
 
@@ -280,7 +288,7 @@ background-size: 100% 100%;
   font-size: 14px;
   line-height: 30px;
   color:#510fad;
-  letter-spacing: 50;
+  letter-spacing: 0.05em;
   font-weight: 500;
   text-transform: uppercase;
 }
@@ -331,7 +339,7 @@ background-size: 100% 100%;
   font-size: 36px;
   line-height: 30px;
   color:#202020;
-  letter-spacing: 50;
+  letter-spacing: 0.05em;
   font-weight: 500;
   padding-left: 366px;
 }
@@ -351,7 +359,7 @@ background-size: 100% 100%;
   font-size: 24px;
   line-height: 30px;
   color:#202020;
-  letter-spacing: 50;
+  letter-spacing: 0.05em;
   font-weight: 500;
   margin: 0 auto;
   padding-top: 15px;
@@ -363,7 +371,7 @@ background-size: 100% 100%;
   font-style: italic;
   line-height: 30px;
   color:#737274;
-  letter-spacing: 50;
+  letter-spacing: 0.05em;
   font-weight: 400;
 }
 
@@ -391,7 +399,7 @@ blockquote{
   font-size: 16px;
   line-height: 30px;
   color:#737274;
-  letter-spacing: 50;
+  letter-spacing: 0.05em;
   font-weight: 400;
 }
 
@@ -421,7 +429,7 @@ blockquote{
   font-size: 36px;
   line-height: 20px;
   color:#fff;
-  letter-spacing: 50;
+  letter-spacing: 0.05em;
   font-weight: 500;
 }
 
@@ -439,7 +447,7 @@ blockquote{
   font-size: 16px;
   line-height: 30px;
   color:#202020;
-  letter-spacing: 50;
+  letter-spacing: 0.05em;
   font-weight: 400;
 }
 
@@ -449,7 +457,7 @@ blockquote{
   font-size: 16px;
   line-height: 30px;
   color:#202020;
-  letter-spacing: 50;
+  letter-spacing: 0.05em;
   font-weight: 400;
 }
 
@@ -463,7 +471,7 @@ blockquote{
   font-size: 14px;
   line-height: 30px;
   color:#5c11c5;
-  letter-spacing: 50;
+  letter-spacing: 0.05em;
   font-weight: 500;
 }
 .arrow_read{
@@ -563,7 +571,7 @@ blockquote{
   font-size: 36px;
   line-height: 30px;
   color:#202020;
-  letter-spacing: 50;
+  letter-spacing: 0.05em;
   font-weight: 500;
 }
 .contact_item h3{
@@ -571,7 +579,7 @@ blockquote{
   font-size: 14px;
   line-height: 30px;
   color:#737274;
-  letter-spacing: 50;
+  letter-spacing: 0.05em;
   font-weight: 500;
   text-transform:uppercase;
 }
