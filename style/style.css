@@ -1,3 +1,9 @@
+
+*{
+  margin:0; 
+  padding:0;
+}
+
 body {
     background-color: #EDE9E0;
 }
@@ -101,7 +107,7 @@ h1{
 
 .about{
   background-color: #510fad;
-  margin:236px auto;
+  margin:286px auto 250px;
   position: relative;
 }
 
@@ -145,7 +151,7 @@ background-size: 100% 100%;
   color:#fff;
   padding-top: 100px;
   font-weight: 500;
-  padding-left: 366px;
+  padding-left: 320px;
   margin: 0;
 }
 
@@ -156,7 +162,7 @@ background-size: 100% 100%;
   letter-spacing: 0;
   color:#b8adc8;
   font-weight: 400;
-  padding-left: 366px;
+  padding-left: 320px;
   margin-top: 36px;
 }
 
@@ -176,23 +182,29 @@ background-size: 100% 100%;
   border-radius: 15px;
 }
 
+.about_content{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 35px;
+}
+
 .about_content li{
   font-family: 'Roboto', sans-serif;
   font-size: 1em;
   line-height: 30px;
   letter-spacing: 0;
   color:#fff;
+  padding: 5px;
 }
 
 .about_content a{
-  padding: 64px 0 0 20px;
   font-family: 'Fira Sans', sans-serif;
   font-size: 1em;
   line-height: 30px;
   letter-spacing: 0.05em;
   color: #ffec00;
-  display: inline-block;
   text-align: left;
+  margin-left: -15px;
 }
 
 .btn{
@@ -229,7 +241,7 @@ background-size: 100% 100%;
   display: flex;
   flex-wrap: wrap;
   align-content: stretch;
-  margin: 100px auto;
+  margin: 105px auto 75px auto;
   justify-content: space-between;
 }
 
@@ -247,16 +259,18 @@ background-size: 100% 100%;
 
 .breed_item{
   width: 460px;
+  padding-bottom: 80px;
 }
 
 .breed_discription{
+  display: flex;
+  flex-wrap: wrap;
   font-family:'Roboto', sans-serif;
   font-size: 16px;
   line-height: 30px;
   color:#737274;
   letter-spacing: 0;
   font-weight: 400;
-  margin:0 auto;
 }
 /*
 .dog{
@@ -275,15 +289,17 @@ background-size: 100% 100%;
   color:#202020;
   letter-spacing: 0.05em;
   font-weight: 500;
+  padding-bottom: 20px;
 }
 
 .breed{
   width: 300;
-  padding-left: 160px
+  padding-left: 18px
 }
 
 .breed_continie{
-  padding-left: 20px;
+  padding-left: 18px;
+  padding-top: 45px;
   font-family: 'Fira Sans', sans-serif;
   font-size: 14px;
   line-height: 30px;
@@ -401,6 +417,7 @@ blockquote{
   color:#737274;
   letter-spacing: 0.05em;
   font-weight: 400;
+  padding-top: 34px;
 }
 
 .sochial_vk{
@@ -410,21 +427,24 @@ blockquote{
 /*Все о животных*/
 .about_animals{
   background-image: url(../img/fon.png);
-  margin: 200px auto 0;
+  margin: 207px auto 0;
 }
 
 .animals_container{
   width: 940px;
   display: flex;
   margin: 0 auto;
+  justify-content: space-between;
 }
 
 .about_animals_content{
   width: 430px;
-  padding-top: 120px;
+  margin-top: 110px;
+  flex-grow: 1;
 }
 
 .title_about_animals{
+  padding-top: 40px;
   font-family: 'Fira Sans', sans-serif;
   font-size: 36px;
   line-height: 20px;
@@ -434,6 +454,7 @@ blockquote{
 }
 
 .about_animals_text{
+  padding-top: 40px;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 30px;
@@ -478,6 +499,10 @@ blockquote{
   width: 20px;
   height: 14px;
   background-position: -5px -105px;
+}
+
+.icon{
+  margin:0;
 }
 
 .icons_sochial {
@@ -529,7 +554,7 @@ blockquote{
   height: 290px;
   background-color: #fff;
   border-radius: 10px;
-  margin: 110px 10px;
+  margin: 110px 0 100px 20px;
   box-shadow: -6px 0px 40px 0px rgba(0,0,0,0.4);
   -webkit-box-shadow: -6px 0px 40px 0px rgba(0,0,0,0.4);
   -moz-box-shadow: -6px 0px 40px 0px rgba(0,0,0,0.4);
@@ -553,17 +578,19 @@ blockquote{
 /*Контаткы*/
 .contacts_container{
   width: 940px;
-  padding-top: 130px;
+  padding-top: 150px;
   margin: 0 auto;
 }
 
 .contact_item{
   min-width: 460px;
+  padding-top: 40px;
 }
 
 .contacts_items{
   display: flex;
   flex-wrap: wrap;
+  padding-top: 6px;
 }
 
 .title_contacts{
