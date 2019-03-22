@@ -43,14 +43,18 @@ body {
   letter-spacing: 0;
 }
 
-.menu_link {
+.menu_link{
   margin: 7px;
   list-style: none;
   display: inline-block;
   vertical-align: top;
 }
 
-li :hover{
+.menu_link_item{
+  transition: color 1s linear;
+}
+
+.menu_link_item:hover {
   color: #510fad;
 }
 
@@ -64,6 +68,7 @@ a{
 .phone{
   color: #510fad;
   text-decoration: none;
+  transition: color 1s linear;
 }
 
 .phone:hover{
@@ -201,7 +206,7 @@ background-size: 100% 100%;
   padding: 5px;
 }
 
-.about_content a{
+.video{
   font-family: 'Fira Sans', sans-serif;
   font-size: 1em;
   line-height: 30px;
@@ -209,6 +214,7 @@ background-size: 100% 100%;
   color: #ffec00;
   text-align: left;
   margin-left: -15px;
+  transition: color 1s linear;
 }
 
 .video:after{
@@ -221,6 +227,7 @@ background-size: 100% 100%;
   text-align: left;
   margin-left: 17px;
   vertical-align: middle;
+  transition: background-position 1s linear;
 }
 
 
@@ -228,7 +235,6 @@ background-size: 100% 100%;
   width: 20px;
   height: 14px;
   background-position: -5px -129px;
-  color: #b8adc8;
 }
 
 .video:hover{
@@ -304,6 +310,7 @@ background-size: 100% 100%;
   letter-spacing: 0.05em;
   font-weight: 500;
   text-transform: uppercase;
+  transition: color 1s linear;
 }
 
 .breed_continie:hover{
@@ -319,6 +326,7 @@ background-size: 100% 100%;
   display: inline-block;
   margin-left: 17px;
   vertical-align: middle;
+  transition: background-position 1s linear;
 }
 
 .breed_continie:hover:after{
@@ -431,6 +439,7 @@ blockquote{
 
 .sochial_vk{
   color: #5717af;
+  transition: color 1s linear;
 }
 
 .sochial_vk:hover{
@@ -499,6 +508,7 @@ blockquote{
   width: 170px;
   padding-left: 10px;
   padding-top: 28px;
+  margin-bottom: 17px;
 }
 
 .animals_text p{
@@ -512,6 +522,7 @@ blockquote{
   color:#5c11c5;
   letter-spacing: 0.05em;
   font-weight: 500;
+  transition: color 1s linear;
 }
 
 
@@ -524,6 +535,7 @@ blockquote{
   display: inline-block; 
   margin-left: 12px;
   vertical-align: middle;
+  transition: background-position 1s linear;
 }
 
 .icons_sochial {
@@ -567,13 +579,14 @@ blockquote{
 .about_animals_photos_item1,
 .about_animals_photos_item2{
   width: 220px;
-  height: 290px;
+  height: 305px;
   background-color: #fff;
   border-radius: 10px;
   margin: 110px 0 90px 20px;
   box-shadow: -6px 0px 40px 0px rgba(0,0,0,0.4);
   -webkit-box-shadow: -6px 0px 40px 0px rgba(0,0,0,0.4);
   -moz-box-shadow: -6px 0px 40px 0px rgba(0,0,0,0.4);
+  transition: box-shadow 1s linear;
 }
 
 .about_animals_photos_item1:hover{
@@ -662,16 +675,17 @@ blockquote{
   padding: 0;
 }
 
-.menu_footer a{
+.menu_link_item2{
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 30px;
   color: #737274;
   letter-spacing: 0;
   font-weight: 500;
+  transition: color 1s linear;
 }
 
-.menu_footer a:hover{
+.menu_link_item2:hover{
   color: #510fad;
 }
 
